@@ -1,0 +1,146 @@
+{
+  "id": {
+    "sessionId": "c53996e06670442e97ee0571f1860104",
+    "elementId": "b4b4e45b-59ee-4c57-8466-635204206e39",
+    "element-6066-11e4-a52e-4f735466cecf": "b4b4e45b-59ee-4c57-8466-635204206e39",
+    "selector": ".fancybox-iframe",
+    "parent": {
+      "sessionId": "c53996e06670442e97ee0571f1860104",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "91.0.4472.114",
+        "chrome": {
+          "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+          "userDataDir": "/var/folders/4l/8t0ky8bs5bl_k6m4_d4hg_w40000gn/T/.com.google.Chrome.lVIXB4"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:57750"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true,
+        "webdriver.remote.sessionid": "c53996e06670442e97ee0571f1860104"
+      },
+      "config": {
+        "specs": [
+          "./test/**/*.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          [
+            "image-comparison",
+            {
+              "baselineFolder": "/Users/guzmanburone/APW_pruebaFinal/visual-regression/baseline/",
+              "formatImageName": "{tag}-{logName}-{width}x{height}",
+              "screenshotPath": "/Users/guzmanburone/APW_pruebaFinal/visual-regression/",
+              "savePerInstance": true,
+              "autoSaveBaseline": true,
+              "blockOutStatusBar": true,
+              "blockOutToolBar": true
+            }
+          ],
+          "selenium-standalone"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "require": [
+            "@babel/register"
+          ],
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [
+          null
+        ],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [
+          null
+        ],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "http://automationpractice.com/",
+        "_": [
+          "./wdio.conf.js"
+        ],
+        "$0": "/Users/guzmanburone/APW_pruebaFinal/node_modules/.bin/wdio",
+        "ignoredWorkerServices": []
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

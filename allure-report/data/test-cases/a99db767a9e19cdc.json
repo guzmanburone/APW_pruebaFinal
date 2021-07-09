@@ -1,0 +1,97 @@
+{
+  "uid" : "a99db767a9e19cdc",
+  "name" : "Deberia de abrir navegador, probando test",
+  "fullName" : "APW.Deberia de abrir navegador, probando test",
+  "historyId" : "a716080f44b246cb7a49fbe448ada45a",
+  "time" : {
+    "start" : 1622608348002,
+    "stop" : 1622608348007,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1622608348004,
+        "stop" : 0,
+        "duration" : -1622608348004
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65e61ba6605add40",
+        "name" : "Request",
+        "source" : "65e61ba6605add40.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "APW"
+  }, {
+    "name" : "testClass",
+    "value" : "APW"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deberia de abrir navegador, probando test"
+  }, {
+    "name" : "package",
+    "value" : "APW"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f149798b0066dcbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622608221818,
+        "stop" : 1622608221838,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a99db767a9e19cdc.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

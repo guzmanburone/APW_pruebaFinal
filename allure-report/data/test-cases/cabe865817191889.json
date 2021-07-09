@@ -1,0 +1,136 @@
+{
+  "uid" : "cabe865817191889",
+  "name" : "Get text for element",
+  "fullName" : "Interacting with elements.Get text for element",
+  "historyId" : "e8df7761d1f845435bc1d93b50b03ce",
+  "time" : {
+    "start" : 1622692488495,
+    "stop" : 1622692488586,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622692488497,
+        "stop" : 0,
+        "duration" : -1622692488497
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1622692488546,
+          "stop" : 0,
+          "duration" : -1622692488546
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "19c83a83dbd82935",
+          "name" : "Request",
+          "source" : "19c83a83dbd82935.json",
+          "type" : "application/json",
+          "size" : 45
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b2ec59c1b25daff4",
+        "name" : "Request",
+        "source" : "b2ec59c1b25daff4.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get text for element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44ea5b55ba61e214",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622680385300,
+        "stop" : 1622680385389,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "975952c0942a9de2",
+      "status" : "broken",
+      "statusDetails" : "$(...).getText is not a function",
+      "time" : {
+        "start" : 1622680323166,
+        "stop" : 1622680323247,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "2727baf062736e82",
+      "status" : "broken",
+      "statusDetails" : "$(...).getText is not a function",
+      "time" : {
+        "start" : 1622679822601,
+        "stop" : 1622679822681,
+        "duration" : 80
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cabe865817191889.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

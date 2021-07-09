@@ -1,0 +1,142 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "APW",
+    "children" : [ {
+      "name" : "Deberia de abrir navegador, probando test",
+      "uid" : "a99db767a9e19cdc",
+      "parentUid" : "f4ab1b5afd0bdbe45847d8fb1d72b1b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622608348002,
+        "stop" : 1622608348007,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Deberia de buscar dress ",
+      "uid" : "a9c16a5a26e82258",
+      "parentUid" : "f4ab1b5afd0bdbe45847d8fb1d72b1b8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622610668744,
+        "stop" : 1622610668774,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Deberia de buscar dress",
+      "uid" : "15bc990cd9c75a68",
+      "parentUid" : "f4ab1b5afd0bdbe45847d8fb1d72b1b8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622611387530,
+        "stop" : 1622611387548,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "f4ab1b5afd0bdbe45847d8fb1d72b1b8"
+  }, {
+    "name" : "Carrito",
+    "children" : [ {
+      "name" : "Debería buscar iphone",
+      "uid" : "b22271e3a63a801",
+      "parentUid" : "4882347748afd1987690ae3db43555d6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622611118275,
+        "stop" : 1622611118289,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "4882347748afd1987690ae3db43555d6"
+  }, {
+    "name" : "example",
+    "children" : [ {
+      "name" : "Deberia de buscar dress",
+      "uid" : "ca71354b6d13dcd3",
+      "parentUid" : "e208ff1cb412bd4f5b63ec4e9eb8d51a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622611743079,
+        "stop" : 1622611743152,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Deberia de buscar dress",
+      "uid" : "7a28459d356382c9",
+      "parentUid" : "e208ff1cb412bd4f5b63ec4e9eb8d51a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622679604639,
+        "stop" : 1622679604718,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "e208ff1cb412bd4f5b63ec4e9eb8d51a"
+  }, {
+    "name" : "Interacting with elements",
+    "children" : [ {
+      "name" : "Get text for element",
+      "uid" : "cabe865817191889",
+      "parentUid" : "4ce41e744219b10dee04e50cc3ecb15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622692488495,
+        "stop" : 1622692488586,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "Interact with element",
+      "uid" : "6d8d9d482f7fc988",
+      "parentUid" : "4ce41e744219b10dee04e50cc3ecb15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622772300676,
+        "stop" : 1622772307406,
+        "duration" : 6730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "4ce41e744219b10dee04e50cc3ecb15b"
+  }, {
+    "name" : "Searching elements",
+    "children" : [ {
+      "name" : "Search for element",
+      "uid" : "206d230b05c9cd52",
+      "parentUid" : "e14a8d6ebf92efec368d5d3dd6494950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622950090322,
+        "stop" : 1622950099302,
+        "duration" : 8980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "e14a8d6ebf92efec368d5d3dd6494950"
+  } ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "3cf4c5e5e74ea527",
+  "name" : "Interact with element",
+  "fullName" : "Interacting with elements.Interact with element",
+  "historyId" : "f9468993f83e2c5abd903a4085b9982e",
+  "time" : {
+    "start" : 1622693228589,
+    "stop" : 1622693235392,
+    "duration" : 6803
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:5:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:5:12)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1622693228592,
+        "stop" : 1622693234506,
+        "duration" : 5914
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2bf4056e28a1350",
+        "name" : "Request",
+        "source" : "c2bf4056e28a1350.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622693234507,
+        "stop" : 1622693234523,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f56c596c7b985d7c",
+        "name" : "Request",
+        "source" : "f56c596c7b985d7c.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "f7940f6927e0f",
+        "name" : "Response",
+        "source" : "f7940f6927e0f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4218fde9-1187-42dc-b33e-d676f0bdfc8a/click",
+      "time" : {
+        "start" : 1622693234528,
+        "stop" : 1622693235392,
+        "duration" : 864
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.77)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:5:12)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1622693234763,
+          "stop" : 1622693235391,
+          "duration" : 628
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b9eac4f8f15fb1c",
+          "name" : "Screenshot",
+          "source" : "1b9eac4f8f15fb1c.png",
+          "type" : "image/png",
+          "size" : 919178
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Interact with element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cf4c5e5e74ea527.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

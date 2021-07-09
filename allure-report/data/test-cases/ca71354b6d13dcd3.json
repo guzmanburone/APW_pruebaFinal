@@ -1,0 +1,136 @@
+{
+  "uid" : "ca71354b6d13dcd3",
+  "name" : "Deberia de buscar dress",
+  "fullName" : "example.Deberia de buscar dress",
+  "historyId" : "e8bb6f3eda973eb96f1f5973517c9f44",
+  "time" : {
+    "start" : 1622611743079,
+    "stop" : 1622611743152,
+    "duration" : 73
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "barraDeBusqueda.setValue is not a function",
+  "statusTrace" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:6:21)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "barraDeBusqueda.setValue is not a function",
+    "statusTrace" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:6:21)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622611743083,
+        "stop" : 1622611743152,
+        "duration" : 69
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:6:21)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1622611743104,
+          "stop" : 1622611743152,
+          "duration" : 48
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:6:21)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1622611743106,
+            "stop" : 1622611743152,
+            "duration" : 46
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:6:21)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "23b7ad264bcb3d3e",
+            "name" : "Request",
+            "source" : "23b7ad264bcb3d3e.json",
+            "type" : "application/json",
+            "size" : 45
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "29b8c3090b0d788",
+        "name" : "Request",
+        "source" : "29b8c3090b0d788.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "example"
+  }, {
+    "name" : "testClass",
+    "value" : "example"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deberia de buscar dress"
+  }, {
+    "name" : "package",
+    "value" : "example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ca71354b6d13dcd3.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "f149798b0066dcbc",
+  "name" : "Deberia de abrir navegador, probando test",
+  "fullName" : "APW.Deberia de abrir navegador, probando test",
+  "historyId" : "a716080f44b246cb7a49fbe448ada45a",
+  "time" : {
+    "start" : 1622608221818,
+    "stop" : 1622608221838,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1622608221830,
+        "stop" : 0,
+        "duration" : -1622608221830
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac07c610339be70e",
+        "name" : "Request",
+        "source" : "ac07c610339be70e.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "APW"
+  }, {
+    "name" : "testClass",
+    "value" : "APW"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deberia de abrir navegador, probando test"
+  }, {
+    "name" : "package",
+    "value" : "APW"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f149798b0066dcbc.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

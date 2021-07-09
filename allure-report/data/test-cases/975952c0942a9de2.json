@@ -1,0 +1,130 @@
+{
+  "uid" : "975952c0942a9de2",
+  "name" : "Get text for element",
+  "fullName" : "Interacting with elements.Get text for element",
+  "historyId" : "e8df7761d1f845435bc1d93b50b03ce",
+  "time" : {
+    "start" : 1622680323166,
+    "stop" : 1622680323247,
+    "duration" : 81
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$(...).getText is not a function",
+  "statusTrace" : "TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:4:57)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "$(...).getText is not a function",
+    "statusTrace" : "TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:4:57)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622680323169,
+        "stop" : 1622680323247,
+        "duration" : 78
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:4:57)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1622680323222,
+          "stop" : 1622680323247,
+          "duration" : 25
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:4:57)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1622680323225,
+            "stop" : 1622680323247,
+            "duration" : 22
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/test/example.test.js:4:57)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "16781ff72f67d6fe",
+            "name" : "Request",
+            "source" : "16781ff72f67d6fe.json",
+            "type" : "application/json",
+            "size" : 45
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c7fc2d77daf325e6",
+        "name" : "Request",
+        "source" : "c7fc2d77daf325e6.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get text for element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "975952c0942a9de2.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

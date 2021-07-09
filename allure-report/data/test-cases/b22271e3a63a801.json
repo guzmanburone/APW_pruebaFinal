@@ -1,0 +1,136 @@
+{
+  "uid" : "b22271e3a63a801",
+  "name" : "Debería buscar iphone",
+  "fullName" : "Carrito.Debería buscar iphone",
+  "historyId" : "9258c2d479b37474d7331304c8e7d486",
+  "time" : {
+    "start" : 1622611118275,
+    "stop" : 1622611118289,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "barraDeBusqueda.setValue is not a function",
+  "statusTrace" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:5:23)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "barraDeBusqueda.setValue is not a function",
+    "statusTrace" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:5:23)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622611118278,
+        "stop" : 1622611118289,
+        "duration" : 11
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:5:23)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1622611118282,
+          "stop" : 1622611118289,
+          "duration" : 7
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:5:23)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1622611118284,
+            "stop" : 1622611118289,
+            "duration" : 5
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: barraDeBusqueda.setValue is not a function\n                    at Context.<anonymous> (/Users/guzmanburone/APW_pruebaFinal/tests/example.test.js:5:23)\n                    at Context.executeAsync (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/Users/guzmanburone/APW_pruebaFinal/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2c0ac4304f308eb0",
+            "name" : "Request",
+            "source" : "2c0ac4304f308eb0.json",
+            "type" : "application/json",
+            "size" : 45
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "707529fe18e3ae1d",
+        "name" : "Request",
+        "source" : "707529fe18e3ae1d.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Carrito"
+  }, {
+    "name" : "testClass",
+    "value" : "Carrito"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar iphone"
+  }, {
+    "name" : "package",
+    "value" : "Carrito"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b22271e3a63a801.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

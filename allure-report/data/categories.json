@@ -1,0 +1,82 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "barraDeBusqueda.click is not a function",
+      "children" : [ {
+        "name" : "Deberia de buscar dress ",
+        "uid" : "a9c16a5a26e82258",
+        "parentUid" : "1b519d590fe6b9733ccf6569829cb6f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622610668744,
+          "stop" : 1622610668774,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "1b519d590fe6b9733ccf6569829cb6f1"
+    }, {
+      "name" : "barraDeBusqueda.setValue is not a function",
+      "children" : [ {
+        "name" : "Debería buscar iphone",
+        "uid" : "b22271e3a63a801",
+        "parentUid" : "0e3420133b6d749fd0a2151162b9caa7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622611118275,
+          "stop" : 1622611118289,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      }, {
+        "name" : "Deberia de buscar dress",
+        "uid" : "15bc990cd9c75a68",
+        "parentUid" : "0e3420133b6d749fd0a2151162b9caa7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622611387530,
+          "stop" : 1622611387548,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      }, {
+        "name" : "Deberia de buscar dress",
+        "uid" : "ca71354b6d13dcd3",
+        "parentUid" : "0e3420133b6d749fd0a2151162b9caa7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622611743079,
+          "stop" : 1622611743152,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      }, {
+        "name" : "Deberia de buscar dress",
+        "uid" : "7a28459d356382c9",
+        "parentUid" : "0e3420133b6d749fd0a2151162b9caa7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622679604639,
+          "stop" : 1622679604718,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.77" ]
+      } ],
+      "uid" : "0e3420133b6d749fd0a2151162b9caa7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
