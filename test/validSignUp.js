@@ -22,7 +22,6 @@ describe("Should create a new account", function () {
     });
 
     it("It should enter value in email", function () {
-        //const created_email_class = faker.internet.email();
         Authentication.enterCreateEmailValue(signInData.created_email_class);
     });
 

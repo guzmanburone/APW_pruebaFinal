@@ -19,7 +19,6 @@ it('Comparison of images with My Store page', () => {
     HomePage.topBar.waitForDisplayed();
     expect(
         browser.checkElement(HomePage.topBar, "My Store header", {
-            /* opciones de configuración para el elemento */
         }),
         "Error: My Store navigation bar does not match the original"
     ).equal(0);

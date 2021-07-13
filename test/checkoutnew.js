@@ -34,7 +34,6 @@ describe("Adding first item to cart from Quickview and proceed to checkout", fun
 
     it("It should click Proceed to checkout button", function () {
         HomePage.clickCheckoutButton();
-        browser.pause(5000);
     });
 
 
@@ -66,7 +65,6 @@ describe("Adding first item to cart from Quickview and proceed to checkout", fun
 
     it("It should click I confirm my order button in Payment", function () {
         Checkout.clickConfirmOrderButton();
-        browser.pause(10000);
+        assert.equal('Your order on My Store is complete.', Checkout.orderCompleted.getText())
     });
-
 });

@@ -45,7 +45,6 @@ class Checkout extends Page {
         return $("//*[@id='center_column']/form/p/button");
     }
 
-
     // Shipping Step
 
     get termsOfServiceCheckbox() {
@@ -78,12 +77,12 @@ class Checkout extends Page {
         return $('.cheque');
     }
 
-    get cheque() {
-        return $('.cheque');
-    }
-
     get confirmOrderButton() {
         return $("//*[@id='cart_navigation']/button");
+    }
+
+    get orderCompleted() {
+        return $("//*[@id='center_column']/div/p/strong");
     }
 
 
