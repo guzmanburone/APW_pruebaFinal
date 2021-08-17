@@ -16,8 +16,12 @@ class SearchPage extends Page {
     get searchButton() {
         return $('//*[@id="searchbox"]/button');}
 
-    get resultsList()   {
+    /* get resultsList()   {
         return $ ('.center_column');
+    } */
+
+    get resultsList()   {
+        return $ ('//*[@id="center_column"]/h1/span[1]');
     }
 
     /**
@@ -29,21 +33,21 @@ class SearchPage extends Page {
         browser.pause(1000);
     }
 
-    enterText(item) {
+    async enterText(item) {
         //this.searchBar.clearValue();
-        this.searchBar.setValue(item);
+        await (await this.searchBar).setValue(item);
         browser.pause(1000);
     }
 
-    search() {
-        this.searchButton.click();
-        return this.resultsList.isDisplayed();
+    async search() {
+        await (await this.searchButton).click();
+        //return this.resultsList.isDisplayed();
     }
 
-    isSearched () {
-        this.resultsList.waitForDisplayed(1000);
+    /* async isSearched () {
+        await (await this.resultsList).waitForDisplayed(1000);
         return this.resultsList.isDisplayed();
-      }
+      } */
 }
 
 export default new SearchPage();

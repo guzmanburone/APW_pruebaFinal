@@ -96,54 +96,54 @@ class Checkout extends Page {
     }
 
 
-    clickProceedToCheckoutButton() {
-        this.checkoutButton.scrollIntoView();
-        this.checkoutButton.waitForDisplayed();
-        this.checkoutButton.click();
+    async clickProceedToCheckoutButton() {
+        await (await this.checkoutButton).scrollIntoView();
+        await (await this.checkoutButton).waitForDisplayed();
+        await (await this.checkoutButton).click();
     }
 
-    clickAdressProceedToCheckoutButton() {
-        this.addressCheckoutButton.scrollIntoView();
-        this.addressCheckoutButton.waitForDisplayed();
-        this.addressCheckoutButton.click();
+    async clickAdressProceedToCheckoutButton() {
+        await (await this.addressCheckoutButton).scrollIntoView();
+        await (await this.addressCheckoutButton).waitForDisplayed();
+        await (await this.addressCheckoutButton).click();
     }
 
-    clickShippingProceedToCheckoutButton() {
-        this.shippingCheckoutButton.scrollIntoView();
-        this.shippingCheckoutButton.waitForDisplayed();
-        this.shippingCheckoutButton.click();
+    async clickShippingProceedToCheckoutButton() {
+        await (await this.shippingCheckoutButton).scrollIntoView();
+        await (await this.shippingCheckoutButton).waitForDisplayed();
+        await (await this.shippingCheckoutButton).click();
     }
 
-    loginAs(userEmail, password) {
-        this.signInEmail.setValue(userEmail);
-        this.signInPassword.setValue(password);
-        this.signInButton.click();
+    async loginAs(userEmail, password) {
+        await (await this.signInEmail).setValue(userEmail);
+        await (await this.signInPassword).setValue(password);
+        await (await this.signInButton).click();
     }
 
-    enterAddressMessage(message) {
-        this.addressMessage.waitForDisplayed();
-        this.addressMessage.setValue(message);
+    async enterAddressMessage(message) {
+        await (await this.addressMessage).waitForDisplayed();
+        await (await this.addressMessage).setValue(message);
     }
 
-    selectTermsCheckbox() {
-        this.termsOfServiceCheckbox.waitForDisplayed();
-        this.termsOfServiceCheckbox.moveTo();
-        this.termsOfServiceCheckbox.click();
+    async selectTermsCheckbox() {
+        await (await this.termsOfServiceCheckbox).waitForDisplayed();
+        await (await this.termsOfServiceCheckbox).moveTo();
+        await (await this.termsOfServiceCheckbox).click();
     }
 
-    clickBankWireOption() {
-        this.bankWire.waitForDisplayed();
-        this.bankWire.click();
+    async clickBankWireOption() {
+        await (await this.bankWire).waitForDisplayed();
+        await (await this.bankWire).click();
     }
 
-    clickChequeOption() {
-        this.cheque.waitForDisplayed();
-        this.cheque.click();
+    async clickChequeOption() {
+        await (await this.cheque).waitForDisplayed();
+        await (await this.cheque).click();
     }
 
-    clickConfirmOrderButton() {
-        this.confirmOrderButton.waitForDisplayed();
-        this.confirmOrderButton.click();
+    async clickConfirmOrderButton() {
+        await (await this.confirmOrderButton).waitForDisplayed();
+        await (await this.confirmOrderButton).click();
     }
 }
 

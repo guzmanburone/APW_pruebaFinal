@@ -1,6 +1,6 @@
 import Page from './page';
 
-class Authentication extends Page {
+class Aauthentication extends Page {
     /**
      * define elements
      */
@@ -101,4 +101,4 @@ class Authentication extends Page {
 
 }
 
-export default new Authentication();
+export default new Aauthentication();
