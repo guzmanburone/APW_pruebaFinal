@@ -1,13 +1,13 @@
 // Page Object Model
 
-import HomePage from '../pages/async.home.page';
-import Authentication from '../pages/async.authentication.page';
-import SignUp from '../pages/async.signup.page';
+import HomePage from '../../pages/home.page';
+import Authentication from '../../pages/authentication.page';
+import SignUp from '../../pages/signup.page';
 
 
 // Data
 
-const signInData = require ('../resources/signInData');
+const signInData = require ('../../resources/signInData');
 
 // Tests
 

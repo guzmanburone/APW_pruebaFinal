@@ -1,6 +1,6 @@
 import Page from './page';
 
-class Aauthentication extends Page {
+class Authentication extends Page {
     /**
      * define elements
      */
@@ -53,52 +53,52 @@ class Aauthentication extends Page {
 
     // Sign Up section
 
-    enterCreateEmailValue(item) {
-        this.createEmail.waitForDisplayed();
-        this.createEmail.setValue(item);
+    async enterCreateEmailValue(item) {
+        await (await this.createEmail).waitForDisplayed();
+        await (await this.createEmail).setValue(item);
     }
 
-    clickCreateButton(item) {
-        this.createButton.waitForDisplayed();
-        this.createButton.click();
+    async clickCreateButton(item) {
+        await (await this.createButton).waitForDisplayed();
+        await (await this.createButton).click();
     }
 
     // Sign In section
 
 
-    clickForgotYourPassword() {
-        this.forgotPassword.waitForDisplayed();
-        this.forgotPassword.click();
+    async clickForgotYourPassword() {
+        await (await this.forgotPassword).waitForDisplayed();
+        await (await this.forgotPassword).click();
     }
 
-    clickBackToLogin() {
-        this.backToLogin.waitForDisplayed();
-        this.backToLogin.click();
+    async clickBackToLogin() {
+        await (await this.backToLogin).waitForDisplayed();
+        await (await this.backToLogin).click();
     }
 
-    enterEmailValue(item) {
-        this.signInEmail.waitForDisplayed();
-        this.signInEmail.setValue(item);
+    async enterEmailValue(item) {
+        await (await this.signInEmail).waitForDisplayed();
+        await (await this.signInEmail).setValue(item);
     }
 
-    enterPasswordlValue(item) {
-        this.signInPassword.waitForDisplayed();
-        this.signInPassword.setValue(item);
+    async enterPasswordlValue(item) {
+        await (await this.signInPassword).waitForDisplayed();
+        await (await this.signInPassword).setValue(item);
     }
 
-    clickSignInButton() {
-        this.signInButton.waitForDisplayed();
-        this.signInButton.click();
+    async clickSignInButton() {
+        await (await this.signInButton).waitForDisplayed();
+        await (await this.signInButton).click();
     }
 
 // Test for checkout
 
-    loginAs(userEmail,password) {
+/*     loginAs(userEmail,password) {
         this.signInEmail.setValue(userEmail);
         this.signInPassword.setValue(password);
         this.signInButton.click();
-}
+} */
 
 }
 
-export default new Aauthentication();
+export default new Authentication();

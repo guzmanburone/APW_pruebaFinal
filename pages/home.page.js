@@ -3,7 +3,7 @@ import Page from './page';
 /* sub page containing specific selectors and methods for a specific page
 */
 
-class HhomePage extends Page {
+class HomePage extends Page {
 
     /**
      * define selectors using getter methods
@@ -42,6 +42,10 @@ class HhomePage extends Page {
         return $('.clearfix');
     }
 
+    get h1Header() {
+        return $('h1');
+    }
+
     get h2Header() {
         return $('h2');
     }
@@ -55,26 +59,30 @@ class HhomePage extends Page {
         browser.pause(1000);
     }
 
-    moveToFirstItem() {
-        this.firstItem.scrollIntoView();
-        this.firstItem.moveTo();
+    async clickSignInButton() {
+        await (await this.signInButton).click();
     }
 
-    openQuickView() {
-        this.quickViewButton.waitForDisplayed();
-        this.quickViewButton.click();
+    async moveToFirstItem() {
+        await (await this.firstItem).scrollIntoView();
+        await (await this.firstItem).moveTo();
     }
 
-    clickAddToCartButton() {
-        this.addToCartiframeButton.click();
-        this.cartWindow.waitForDisplayed();
+    async openQuickView() {
+        await (await this.quickViewButton).waitForDisplayed();
+        await (await this.quickViewButton).click();
     }
 
-    clickCheckoutButton() {
-        this.checkoutIframeButton.click();
+    async clickAddToCartButton() {
+        await (await this.addToCartiframeButton).click();
+        await (await this.cartWindow).waitForDisplayed();
+    }
+
+    async clickCheckoutButton() {
+        await (await this.checkoutIframeButton).click();
     }
 
 
 }
 
-export default new HhomePage();
+export default new HomePage();

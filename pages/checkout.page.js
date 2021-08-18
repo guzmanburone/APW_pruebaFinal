@@ -126,8 +126,7 @@ class Checkout extends Page {
     }
 
     async selectTermsCheckbox() {
-        await (await this.termsOfServiceCheckbox).waitForDisplayed();
-        await (await this.termsOfServiceCheckbox).moveTo();
+        
         await (await this.termsOfServiceCheckbox).click();
     }
 

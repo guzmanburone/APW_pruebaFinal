@@ -1,12 +1,12 @@
 // Page Object Model
 
-import HomePage from '../pages/async.home.page';
-import Checkout from '../pages/checkout.page';
+import HomePage from '../../pages/home.page';
+import Checkout from '../../pages/checkout.page';
 
 
 // Data
 
-const signInData = require('../resources/signInData');
+const signInData = require('../../resources/signInData');
 
 // Tests
 
@@ -25,7 +25,7 @@ describe("Adding first item to cart from Quickview and proceed to checkout", () 
     });
 
     it("It should click add to cart button", async () => {
-        await browser.switchToFrame(await HomePage.iframe);
+        browser.switchToFrame(await HomePage.iframe);
         await HomePage.clickAddToCartButton();
         //assert.equal('Product successfully added to your shopping cart',await HomePage.h2Header.getText())
     });

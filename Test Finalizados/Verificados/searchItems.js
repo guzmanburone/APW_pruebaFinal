@@ -1,10 +1,10 @@
 // Page Object Model
 
-import SearchPage from '../pages/search.page';
+import SearchPage from '../../pages/search.page';
 
 // Data
 
-import SearchItemsData from '../resources/searchItemsData';
+import SearchItemsData from '../../resources/searchItemsData';
 
 // Tests
 
@@ -22,4 +22,4 @@ describe("Performing a search operation on MyStore", () => {
             expect(await (await SearchPage.resultsList).getText()).to.include(article)
         });
     });
-});z
+});
